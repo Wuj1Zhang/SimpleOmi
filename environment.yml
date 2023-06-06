@@ -1,0 +1,13 @@
+name: simomi
+channels:
+- pytorch
+- defaults
+dependencies:
+- python=3.8.10
+- pip=21.1.1
+- pytorch
+- pip:
+  - tensorboard
+  - prefetch_generator
+  - tables
+  - scikit-survival
